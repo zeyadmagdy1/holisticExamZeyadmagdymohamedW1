@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz app</title>
+    <link rel="stylesheet" href="stayel.css">
+</head>
+<body>
+    
+    <div class="cnt">
+        <div class="question1" id="question1">
+            <input type="text" placeholder="username" id="usernametxt" required>
+            <br>
+            <label>2 + 2 ?</label><br>
+            <label for="ans1">answer one 4</label>
+            <input  type="radio" id="ans1" name="ans1">
+            <label  for="f2">answer two 2</label>
+            <input id="f2" type="radio"  name="ans1">
+            <label for="f3">answer three 5</label>
+            <input id="f3" type="radio"  name="ans1">
+            <label for="f4">answer four 0</label>
+            <input id="f4" type="radio"  name="ans1">
+            <button onclick="secondqs()">Next</button>
+        </div>
+
+        <div class="question2" id="question2">
+            <br>
+            <label for="">3 / 3 ?</label><br>
+            <label  for="n1">answer one 4</label>
+            <input id="n1" type="radio" name="ans2">
+            <label for="ans2">answer two 1</label>
+            <input type="radio" id="ans2" name="ans2">
+            <label for="n3">answer three 0</label>
+            <input id="n3" type="radio"  name="ans2">
+            <label for="n4">answer four 6</label>
+            <input id="n4" type="radio"  name="ans2">
+            <button onclick="thirdqs()">Next</button>
+        </div>
+        <div class="question3" id="question3">
+            <br>
+            <label for="">9 * 9 ?</label><br>
+            <label  for="as1">answer one 40</label>
+            <input type="radio" id="a1"  name="ans3">
+            <label for="as1_2">answer two 99</label>
+            <input type="radio" id="a2" name="ans3">
+            <label for="as1_3">answer three 81</label>
+            <input type="radio" id="ans3" name="ans3">
+            <label for="as1_4">answer four 90</label>
+            <input type="radio" id="a4"  name="ans3">
+            <button onclick="submitAndRightAnswers()">Submit</button>
+        </div>
+       
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
